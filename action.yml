@@ -12,7 +12,7 @@ runs:
           zstd -d rsync-3.2.3-2-x86_64.pkg.tar.zst
           tar -xvf rsync-3.2.3-2-x86_64.pkg.tar
           mv usr/bin/rsync.exe "C:\Program Files\Git\usr\bin\\"
-          curl.exe --output libzstd-1.4.8-1-x86_64.pkg.tar.xz https://repo.msys2.org/msys/x86_64/libzstd-1.4.8-1-x86_64.pkg.tar.zst
+          curl.exe --output libzstd-1.4.8-1-x86_64.pkg.tar.zst https://repo.msys2.org/msys/x86_64/libzstd-1.4.8-1-x86_64.pkg.tar.zst
           zstd -d libzstd-1.4.8-1-x86_64.pkg.tar.zst
           tar -xvf libzstd-1.4.8-1-x86_64.pkg.tar
           mv usr/bin/msys-zstd-1.dll "C:\Program Files\Git\usr\bin\\"
